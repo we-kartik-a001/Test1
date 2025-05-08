@@ -7,7 +7,7 @@
 </head>
 <body class="flex justify-center flex-col items-center h-screen bg-gray-400">
 
-    <form class="flex w-[80%] sm:w-[70%] md:w-[60%] flex-col p-8 justify-center border-2 text-xl rounded-xl bg-gradient-to-r from-black-300 via-blue-300 to-blue-600 shadow-xl" action="/students" method="POST">
+    <form class="flex w-[80%] sm:w-[70%] md:w-[65%] flex-col p-8 justify-center border-2 text-xl rounded-xl bg-gradient-to-r from-black-300 via-blue-300 to-blue-600 shadow-xl" action="/students" method="POST">
         @csrf
         <h1 class="text-center text-2xl font-bold mb-4">Create Student</h1>
 
