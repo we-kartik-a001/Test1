@@ -12,7 +12,6 @@
         <h1 class="text-center text-2xl font-bold mb-4">Create Student</h1>
 
         <div class="flex justify-center items-center py-4 gap-4">
-            
             <label class="font-bold text-lg text-red-800">Name:</label>
             <input type="text" class="border-b-2 focus:outline-none focus:border-blue-500" name="name">
         </div>
@@ -27,7 +26,7 @@
             <input type="number" class="border-b-2 focus:outline-none focus:border-blue-500" name="age">
         </div>
 
-        <div class="flex py-4 justify-center">
+        <div class="flex py-4 justify-center font-bold">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full" type="submit">Save</button>
         </div>
     </form>
